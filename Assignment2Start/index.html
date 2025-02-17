@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--basic meta tags-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Gallery</title>
+        
+        <!--importing different files like css and js-->
+        <link rel="stylesheet" href="./css/styles.css">
+        <script src="./js/scripts.js" defer></script>
+    </head>
+    <body>
+        <h1>Image Gallery</h1>
+        <!--buttons to change color a random or custion way-->
+        <button id="changeColorBtn">Change Custom Color</button>
+        <button id="randColorBtn">Change Random Color</button>
+
+        <!--text box to inpiut the user number-->
+        <input type="number" id="colorInput" placeholder="Enter a number (0-100)">
+        <p id="studentId"></p>
+
+        <!--image selector-->
+        <select id="imgSelect">
+            <option value="">Select an image</option>
+        </select>
+
+        <!--just displaying the image-->
+        <div id="gall">
+            <img id="disImg" src="" alt="Selected Image">
+        </div>
+    </body>
+
+</html>
