@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Battery & RoboHash Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <h1>Battery Info & RoboHash</h1>
+
+    <dl id="battery">
+      <dt>Status</dt>
+      <dd class="stat"></dd>
+
+      <dt>Charge Level</dt>
+      <dd>
+        <output class="level">0%</output>
+        <progress class="bar" max="100" value="0"></progress>
+      </dd>
+    </dl>
+
+    <h2>RoboHash Image Based on Battery</h2>
+    <img id="roboImage" src="https://robohash.org/placeholder.png" alt="RoboHash battery image" width="300">
+  </body>
+</html>
